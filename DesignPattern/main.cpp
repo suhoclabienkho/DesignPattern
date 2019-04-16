@@ -7,6 +7,8 @@ int main()
 
   Singleton* instance = Singleton::getInstance();
 
+
+
   Singleton* instance1 = Singleton::getInstance();
 
   Singleton* instance2 = Singleton::getInstance();
